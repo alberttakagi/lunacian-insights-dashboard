@@ -1,24 +1,27 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": <span class="hljs-keyword">false</span>,
-    "skipLibCheck": <span class="hljs-keyword">true</span>,
-    "strict": <span class="hljs-keyword">true</span>,
-    "forceConsistentCasingInFileNames": <span class="hljs-keyword">true</span>,
-    "noEmit": <span class="hljs-keyword">true</span>,
-    "esModuleInterop": <span class="hljs-keyword">true</span>,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
-    "resolveJsonModule": <span class="hljs-keyword">true</span>,
-    "isolatedModules": <span class="hljs-keyword">true</span>,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": <span class="hljs-keyword">true</span>,
-    "baseUrl": ".",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
