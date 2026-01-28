@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": <span class="hljs-keyword">false</span>,
+    "skipLibCheck": <span class="hljs-keyword">true</span>,
+    "strict": <span class="hljs-keyword">true</span>,
+    "forceConsistentCasingInFileNames": <span class="hljs-keyword">true</span>,
+    "noEmit": <span class="hljs-keyword">true</span>,
+    "esModuleInterop": <span class="hljs-keyword">true</span>,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": <span class="hljs-keyword">true</span>,
+    "isolatedModules": <span class="hljs-keyword">true</span>,
+    "jsx": "preserve",
+    "incremental": <span class="hljs-keyword">true</span>,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
