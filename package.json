@@ -1,7 +1,7 @@
 {
   "name": "lunacian-insights-dashboard",
   "version": "1.0.0",
-  "private": <span class="hljs-keyword">true</span>,
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
