@@ -1,12 +1,8 @@
-import { NextResponse } from "next/server";
-import { getYouTubeVideos } from "@/lib/storage";
-import { computeAnalytics } from "@/lib/analytics";
+import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const videos = await getYouTubeVideos();
-  const analytics = computeAnalytics(videos);
   return NextResponse.json({
-    videos,
-    analytics
+    message: "Stats endpoint placeholder",
+    status: "active"
   });
 }
