@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Lunacian Insights",
-  description: "Axie Infinity YouTube Analytics",
+  title: "Lunacian Insights Dashboard",
+  description: "YouTube analytics for the Axie ecosystem.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
