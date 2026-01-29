@@ -1,6 +1,6 @@
 import WeeklyPulse from '@/components/WeeklyPulse';
-import VideoChart from '@/components/ViewsChart';
-import VideoTable from '@/components/VideosTable';
+import VideoChart from '@/components/ViewsChart';   // Matches your 'ViewsChart.tsx'
+import VideoTable from '@/components/VideosTable'; // Matches your 'VideosTable.tsx'
 import SlackCopyBox from '@/components/SlackCopyBox';
 
 export default function Home() {
