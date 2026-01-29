@@ -1,6 +1,6 @@
 import WeeklyPulse from '@/components/WeeklyPulse';
-import ViewsChart from '@/components/ViewsChart';
-import VideosTable from '@/components/VideosTable';
+import VideoChart from '@/components/ViewsChart';   // Corrected name
+import VideoTable from '@/components/VideosTable'; // Corrected name
 import SlackCopyBox from '@/components/SlackCopyBox';
 
 export default function Home() {
@@ -10,10 +10,10 @@ export default function Home() {
         <h1 className="text-3xl font-bold text-emerald-400">Lunacian Insights</h1>
         <WeeklyPulse />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <ViewsChart />
+          <VideoChart />
           <SlackCopyBox />
         </div>
-        <VideosTable />
+        <VideoTable />
       </div>
     </main>
   );
