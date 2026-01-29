@@ -6,6 +6,6 @@ export async function GET() {
     const videos = await fetchYouTubeVideos();
     return NextResponse.json(videos);
   } catch (error) {
-    return NextResponse.json({ error: 'Failed to fetch videos' }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to fetch' }, { status: 500 });
   }
 }
