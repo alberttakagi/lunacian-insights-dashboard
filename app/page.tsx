@@ -1,6 +1,6 @@
 import WeeklyPulse from '@/components/WeeklyPulse';
-import VideoChart from '@/components/ViewsChart';   // Must match your filename: ViewsChart
-import VideoTable from '@/components/VideosTable'; // Must match your filename: VideosTable
+import VideoChart from '@/components/ViewsChart';   // CHANGED: Added 's' to match filename
+import VideoTable from '@/components/VideosTable'; // CHANGED: Added 's' to match filename
 import SlackCopyBox from '@/components/SlackCopyBox';
 
 export default function Home() {
