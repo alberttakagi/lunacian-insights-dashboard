@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./main.css";
 
 export const metadata = {
   title: "Lunacian Insights Dashboard",
