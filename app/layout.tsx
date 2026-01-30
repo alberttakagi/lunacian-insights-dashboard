@@ -1,17 +1,14 @@
 import "./globals.css";
-import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Lunacian Insights Dashboard",
-  description: "Axie Infinity social media analytics for Lunacians."
+  description: "YouTube analytics for the Axie ecosystem.",
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <span class="hljs-tag"><<span class="hljs-name">html lang="en"></span>
-      <<span class="hljs-name">body className="min-h-screen bg-slate-950 text-slate-50"></span>
-        <<span class="hljs-name">div className="max-w-6xl mx-auto px-4 py-8"></span>{children}</<span class="hljs-name">div></span>
-      </<span class="hljs-name">body></span>
-    </<span class="hljs-name">html></span></span>
+    <html lang="en">
+      <body className="bg-slate-950 text-slate-50 antialiased">{children}</body>
+    </html>
   );
 }
