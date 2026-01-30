@@ -1,6 +1,6 @@
 import WeeklyPulse from '@/components/WeeklyPulse';
-import VideoChart from '@/components/ViewsChart';   // Corrected name
-import VideoTable from '@/components/VideosTable'; // Corrected name
+import VideoChart from '@/components/ViewsChart';
+import VideoTable from '@/components/VideosTable';
 import SlackCopyBox from '@/components/SlackCopyBox';
 
 export default function Home() {
