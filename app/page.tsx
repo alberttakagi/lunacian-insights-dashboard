@@ -1,6 +1,6 @@
 import WeeklyPulse from '@/components/WeeklyPulse';
-import VideoChart from '@/components/ViewsChart';   // CHANGED: Added 's' to match filename
-import VideoTable from '@/components/VideosTable'; // CHANGED: Added 's' to match filename
+import ViewsChart from '@/components/ViewsChart';   // Matches ViewsChart.tsx
+import VideosTable from '@/components/VideosTable'; // Matches VideosTable.tsx
 import SlackCopyBox from '@/components/SlackCopyBox';
 
 export default function Home() {
@@ -10,10 +10,10 @@ export default function Home() {
         <h1 className="text-3xl font-bold text-emerald-400">Lunacian Insights</h1>
         <WeeklyPulse />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <VideoChart />
+          <ViewsChart />
           <SlackCopyBox />
         </div>
-        <VideoTable />
+        <VideosTable />
       </div>
     </main>
   );
