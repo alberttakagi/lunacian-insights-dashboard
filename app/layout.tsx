@@ -1,5 +1,3 @@
-import "./main.css";
-
 export const metadata = {
   title: "Lunacian Insights Dashboard",
   description: "YouTube analytics for the Axie ecosystem.",
