@@ -1,6 +1,6 @@
 import WeeklyPulse from '@/components/WeeklyPulse';
-import VideoChart from '@/components/ViewsChart';   // Must be 'ViewsChart'
-import VideoTable from '@/components/VideosTable'; // Must be 'VideosTable'
+import VideoChart from '@/components/ViewsChart';   // Plural 'Views'
+import VideoTable from '@/components/VideosTable'; // Plural 'Videos'
 import SlackCopyBox from '@/components/SlackCopyBox';
 
 export default function Home() {
